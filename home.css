@@ -1,0 +1,78 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.nav{
+  width: 100%;
+  background: rgba(152, 36, 38, 0.50);
+  height: 55px;
+  position: fixed;
+}
+
+.hero{
+  height: 70vh;
+  background: grey;
+  background-image: url('studio.jpg');
+  background-size: cover;
+}
+
+.scrollable-container{
+  height: 35vh;
+  background: orange;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.scrollable{
+  float: left;
+  width: 25%;
+  background: red;
+  height: 35vh;
+  display: inline-block;
+  margin: 0;
+  transition: all .3s ease-in-out;
+  cursor: pointer;
+  text-align: center;
+}
+
+.description{
+  margin-top: 30%;
+  width: 90%;
+  height: 50%;
+  background: rgba(0, 0, 0, 0.5);
+  display: inline-block;
+  opacity: 0;
+}
+
+.visible{
+  opacity: 1;
+}
+
+.scrollable:hover {
+  transform: scale(1.2);
+}
+
+.s1{
+  background-image: url('1.jpg');
+  background-size: cover;
+}
+.s2{
+  background-image: url('2.jpg');
+  background-size: cover;
+}
+.s3{
+  background-image: url('3.jpg');
+  background-size: cover;
+}
+.s4{
+  background-image: url('4.jpg');
+  background-size: cover;
+}
+
+footer{
+  height: 80px;
+  background: black;
+  width: 100%;
+}
